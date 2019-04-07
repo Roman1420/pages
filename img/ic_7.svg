@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>6D8D59F9-C7C6-4861-816E-B5099FC4D7AD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="design_zhilaya_pravki" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="состояния" transform="translate(-43.000000, -2081.000000)">
+            <g id="ic_7" transform="translate(40.000000, 2079.000000)">
+                <g id="refrash">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Group-2" opacity="0.200000003" mask="url(#mask-2)">
+                        <g transform="translate(3.100000, 2.500000)">
+                            <path d="M11.8882277,1.41197139 L9.1435174,4.05865634 L8.66173072,3.99162515 L5.37271489,3.53379175 L4.71779041,7.2668613 L4.288049,7.49633487 L1.33993473,9.07056964 L3.00565805,12.5 L2.79344755,12.936904 L1.33964108,15.9292725 L4.71779041,17.7331387 L4.80197334,18.2129814 L5.37258381,21.4659953 L9.1435174,20.9413437 L9.49366937,21.2789902 L11.8879961,23.5880286 L14.6327064,20.9413437 L15.1144931,21.0083749 L18.4035089,21.4662083 L19.0584334,17.7331387 L19.4881748,17.5036651 L22.436289,15.9294304 L20.7705657,12.5 L20.9827762,12.063096 L22.4365827,9.07072745 L19.0584334,7.2668613 L18.9742504,6.78701859 L18.40364,3.53400471 L14.6327064,4.05865634 L14.2825544,3.7210098 L11.8882277,1.41197139 Z" id="Path" stroke="#0E0E0E" stroke-width="2"></path>
+                            <g id="Group" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(7.900000, 6.500000)">
+                                <rect id="Rectangle" fill="#000000" x="2" y="0" width="2" height="12"></rect>
+                                <path d="M3,1 L3,6 L5.5,6 C6.88071187,6 8,4.88071187 8,3.5 C8,2.11928813 6.88071187,1 5.5,1 L3,1 Z" id="Rectangle" stroke="#000000" stroke-width="2"></path>
+                                <rect id="Rectangle" fill="#000000" x="0" y="5" width="2" height="2"></rect>
+                                <rect id="Rectangle-Copy-9" fill="#000000" x="0" y="8" width="6" height="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

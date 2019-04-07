@@ -1,0 +1,25 @@
+{
+  "name": "mypages",
+  "version": "1.0.0",
+  "description": "my outsource pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman1420/pages.git"
+  },
+  "keywords": [
+    "1252"
+  ],
+  "author": "Roman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roman1420/pages/issues"
+  },
+  "homepage": "https://github.com/Roman1420/pages#readme",
+  "dependencies": {
+    "npm-git-install": "^0.3.0"
+  }
+}

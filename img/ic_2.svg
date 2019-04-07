@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>90795273-0DB1-49AE-A34D-786109D86E6A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+        <rect id="path-3" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="design_zhilaya_pravki" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="состояния" transform="translate(-44.000000, -1809.000000)">
+            <g id="ic_2" transform="translate(40.000000, 1804.000000)">
+                <g id="refrash">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                </g>
+                <g id="Oval">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                </g>
+                <g id="Group" opacity="0.200000003" transform="translate(4.500000, 5.000000)">
+                    <path d="M1,19 L7,19 L14,19 L14,13 L20,13 L20,2 C20,1.44771525 19.5522847,1 19,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,19 Z" id="Rectangle" stroke="#000000" stroke-width="2"></path>
+                    <rect id="Rectangle" fill="#000000" x="6.5" y="12" width="2" height="8"></rect>
+                    <rect id="Rectangle" fill="#000000" x="4" y="4" width="6" height="2"></rect>
+                    <rect id="Rectangle-Copy" fill="#000000" x="4" y="8" width="13" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
