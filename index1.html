@@ -105,7 +105,7 @@
                                     <p>Кадастровый номер</p>
                                 </div>
                                 <div class="col-md-8	col-lg-8">
-                                    <div class="input-group">
+                                    <div class="input-group input-kad" >
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
@@ -297,7 +297,7 @@
 								<p>Название</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="input-group">
+								<div class="input-group input-name">
 									<input type="text" class="form-control" placeholder="Введите название">
 								</div>
 							</div>
@@ -307,7 +307,7 @@
                                 <p>Год постройки</p>
                             </div>
                             <div class="col-md-8	col-lg-8">
-                                <div class="input-group">
+                                <div class="input-group input-kad">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
@@ -316,7 +316,7 @@
                             <div class="col-md-4  col-lg-4">
                                 <p>Тип и серия домов</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="btn-group" style="float: left">
                                     <select role="menu">
                                         <option><a href="#">Действие</a></option>
@@ -326,10 +326,12 @@
                                         <option><a href="#">Отдельная ссылка</a></option>
                                     </select>
                                 </div>
-                                <div class="input-group" style="float: left">
-                                    <input type="text" class="form-control"  placeholder="Серия">
-                                </div>
-                            </div>
+							</div>
+							<div class="col-md-4	col-lg-4">
+								<div class="input-group" style="float: left">
+									<input type="text" class="form-control"  placeholder="Серия">
+								</div>
+							</div>
                         </div>
                         <div class="row adt_block">
                             <div class="col-md-4  col-lg-4">
@@ -397,7 +399,7 @@
 						<p class="adt_headline">Фотографии</p>
 						<div class="row adt_block">
 							<span>Недопускаются к размещению фотографии с водяными знаками, чужих объектов и рекламные баннеры. Максимальный размер файла - 10 Мб.</span>
-							<div class="files_input" style="width: 100%; border: 1px solid gray; border-radius: 10px; padding: 50px; text-align: center">Здесь будет блок для размещения файлов.</div>
+							<div class="files_input" style="width: 100%; border: 1px dashed #6666ff; border-radius: 10px; padding: 50px; text-align: center">Здесь будет блок для размещения файлов.</div>
 						</div>
 
 						<div class="row adt_block">
@@ -406,22 +408,15 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-6	col-lg-6">
-                                <div class="input-group">
-                                 <input type="text" class="form-control" placeholder="Ссылка на Youtube">
-                                </div>
+							<div class="col-md-8	col-lg-8">
+							<div class="input-group input-name">
+							<input type="text" class="form-control" placeholder="Ссылка на Youtube">
 							</div>
-							<div class="col-md-6	col-lg-6">
-                                <div class="input-group">
-                                    <p><a class="btn btn-primary btn-md btn-chern" role="button">+ Добавить видео</a></p>
-                                </div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12	col-lg-12">
-								<div class="input-group">
-									<input type="text" class="form-control">
-								</div>
+							<div class="col-md-4	col-lg-4">
+							<div class="input-group input-name">
+							<p><a class="btn btn-primary btn-md btn-youtube" role="button">+ Добавить видео</a></p>
+							</div>
 							</div>
 						</div>
 						<div class="row adt_block">
@@ -442,8 +437,9 @@
 								<p>Стоимость</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="input-group">
-								    <input type="text" class="form-control">
+								<div class="input-group input-price">
+									<input type="text" class="form-control">
+									<span class="input-group-addon">Р </span>
 								</div>
 							</div>
 						</div> 
@@ -505,20 +501,22 @@
 					</div>
 					<div class="adt_desk">
 						<p class="adt_headline">Контакты</p>
-						<div class="row">
-							<div class="col-md-6	col-lg-6">
-								<div class="input-group">
+						<div class="row contacts">
+							<div class="col-md-4	col-lg-4">
+								<div class="input-group input-contact">
 									<input type="tel" class="form-control">
 								</div>
 							</div>
-							<div class="col-md-6	col-lg-6">
-								<div class="input-group">
+							<div class="col-md-4	col-lg-4">
+								<div class="input-group input-contact">
 									<input type="tel" class="form-control">
 								</div>
+							</div>
+							<div class="col-md-4	col-lg-4">
 							</div>
 						</div>
 					</div>
-					<div class="row"><p>
+					<div class="row row_end"><p>
 						<div class="col-md-4	col-lg-4">
 							<a class="btn btn-primary btn-md" role="button">Добавить объявление</a></p>
 						</div>
