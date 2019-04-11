@@ -78,7 +78,7 @@
 							<div class="col-md-4	col-lg-4">
 								<p>Объект</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="btn-group">
 									<select role="menu">
 										<option><a href="#">Действие</a></option>
@@ -95,7 +95,7 @@
 						<p class="adt_headline">Адрес</p>
 						<div class="row adt_block">
 							<input type="text" id="adress" placeholder="Введите адрес" >
-							<iframe src="https://www.google.com/maps/embed?pb=" width="540" height="300" frameborder="0" style="border:0" margin="auto" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=" width="540" height="300" frameborder="0" style="border:0; width: 100%" margin="auto" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div class="adt_desk">
@@ -104,7 +104,7 @@
                                 <div class="col-md-4  col-lg-4">
                                     <p>Кадастровый номер</p>
                                 </div>
-                                <div class="col-md-8	col-lg-8">
+                                <div class="col-md-4	col-lg-4">
                                     <div class="input-group input-kad" >
                                         <input type="text" class="form-control">
                                     </div>
@@ -114,7 +114,7 @@
 							<div class="col-md-4	col-lg-4">
 								<p>Количество комнат</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="btn-group">
 									<select role="menu">
 										<option><a href="#">Действие</a></option>
@@ -130,7 +130,7 @@
                             <div class="col-md-4	col-lg-4">
                                 <p>Планировка комнат</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="btn-group">
                                     <select role="menu">
                                         <option><a href="#">Действие</a></option>
@@ -146,7 +146,7 @@
                             <div class="col-md-4  col-lg-4">
                                 <p>Этаж</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="btn-group btn-floor">
                                     <select role="menu">
                                         <option><a href="#">Действие</a></option>
@@ -171,7 +171,7 @@
 							<div class="col-md-4  col-lg-4">
 								<p>Общая площадь</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="input-group input-number">
 									<input type="text" class="form-control">
 									<span class="input-group-addon">м</span>
@@ -182,7 +182,7 @@
                             <div class="col-md-4  col-lg-4">
                                 <p>Жилая площадь</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="input-group input-number">
                                     <input type="text" class="form-control">
                                     <span class="input-group-addon">м</span>
@@ -193,7 +193,7 @@
                             <div class="col-md-4  col-lg-4">
                                 <p>Кухня</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="input-group input-number">
                                     <input type="text" class="form-control">
                                     <span class="input-group-addon">м</span>
@@ -229,8 +229,14 @@
 								<p>Окна выходят</p>
 							</div>
 							<div class="col-md-4	col-lg-4">
-								<div class="radio_button"><input type="radio" class="radio" id="radio_51" name="optradio6" checked><label for="radio_51" class="radio-inline">Во двор</label></div>
-								<div class="radio_button"><input type="radio" class="radio" id="radio_52" name="optradio6"><label for="radio_52" class="radio-inline">На улицу</label></div>
+								<div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Во двор</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">На улицу</span></label>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="row adt_block">
@@ -261,7 +267,7 @@
 							<div class="col-md-4	col-lg-4">
 								<p>Ремонт</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="btn-group">
 								<select role="menu">
 									<option><a href="#">Действие</a></option>
@@ -277,7 +283,7 @@
                             <div class="col-md-4	col-lg-4">
                                 <p>Расположение в доме</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="btn-group">
                                 <select role="menu">
                                     <option><a href="#">Действие</a></option>
@@ -306,7 +312,7 @@
                             <div class="col-md-4	col-lg-4">
                                 <p>Год постройки</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="input-group input-kad">
                                     <input type="text" class="form-control">
                                 </div>
@@ -349,11 +355,11 @@
                                 <p>Пассажирских лифтов</p>
                             </div>
                             <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_71" name="optradio8" checked><label for="radio_71" class="radio-inline">Нет</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_72" name="optradio8"><label for="radio_72" class="radio-inline">1</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_73" name="optradio8"><label for="radio_73" class="radio-inline">2</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_74" name="optradio8"><label for="radio_74" class="radio-inline">3</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_75" name="optradio8"><label for="radio_75" class="radio-inline">4</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_81" name="optradio8" checked><label for="radio_81" class="radio-inline">Нет</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_82" name="optradio8"><label for="radio_82" class="radio-inline">1</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_83" name="optradio8"><label for="radio_83" class="radio-inline">2</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_84" name="optradio8"><label for="radio_84" class="radio-inline">3</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_85" name="optradio8"><label for="radio_85" class="radio-inline">4</label></div>
                             </div>
                         </div>
                         <div class="row adt_block">
@@ -361,11 +367,11 @@
                                 <p>Грузовых лифтов</p>
                             </div>
                             <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_71" name="optradio8" checked><label for="radio_71" class="radio-inline">Нет</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_72" name="optradio8"><label for="radio_72" class="radio-inline">1</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_73" name="optradio8"><label for="radio_73" class="radio-inline">2</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_74" name="optradio8"><label for="radio_74" class="radio-inline">3</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_75" name="optradio8"><label for="radio_75" class="radio-inline">4</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_91" name="optradio8" checked><label for="radio_91" class="radio-inline">Нет</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_92" name="optradio8"><label for="radio_92" class="radio-inline">1</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_93" name="optradio8"><label for="radio_93" class="radio-inline">2</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_94" name="optradio8"><label for="radio_94" class="radio-inline">3</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_95" name="optradio8"><label for="radio_95" class="radio-inline">4</label></div>
                             </div>
                         </div>
                         <div class="row adt_block">
@@ -380,7 +386,7 @@
                             <div class="col-md-4  col-lg-4">
                                 <p>Парковка</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
+                            <div class="col-md-4	col-lg-4">
                                 <div class="btn-group">
                                     <select role="menu">
                                         <option><a href="#">Действие</a></option>
@@ -456,7 +462,9 @@
                             <div class="col-md-4	col-lg-4">
                                 <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">Под авансом/задатком</span></label>
                             </div>            
-                        </div> 
+						</div> 
+						<div class="row adt_block">
+						</div> 
 						<div class="row adt_block">
 							<div class="col-md-4  col-lg-4">
 								<p>Тип продажи</p>
@@ -470,7 +478,7 @@
 							<div class="col-md-4  col-lg-4">
 								<p>Вид договора</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="btn-group">
 									<select role="menu">
 										<option><a href="#">Действие</a></option>
@@ -486,7 +494,7 @@
 							<div class="col-md-4  col-lg-4">
 								<p>Комиссия</p>
 							</div>
-							<div class="col-md-8	col-lg-8">
+							<div class="col-md-4	col-lg-4">
 								<div class="btn-group">
 									<select role="menu">
 										<option><a href="#">Действие</a></option>
