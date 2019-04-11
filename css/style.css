@@ -1,6 +1,14 @@
 body{
 	background: #f5f5f8;
 }
+input{
+	border: 1px solid #f1f1f1;
+	box-shadow:none!important;
+}
+input:focus{
+	border-color: #f1f1f1!important;
+	box-shadow:none!important;
+}
 label{
 	max-width: none;
 }
@@ -106,6 +114,13 @@ body>.row>div:nth-child(1){
 }
 .adt_main .row>div{
 	padding:0 10px 0 0;
+}
+
+.headline{
+	font-size: 9pt;
+}
+.headline p{
+	margin-bottom: 5px;
 }
 
 .adt_desk{
@@ -282,12 +297,12 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	color: #6666ff;
  }
  .btn-primary.btn-chern{
-	background: white;
+	background: none;
 	color: #6666ff;
 	border: 1px solid #f1f1f1;
  }
 .btn-primary.btn-send{
-	background: white;
+	background: none;
 	color: #6666ff;
 	border: 1px solid #6666ff;
 	padding: 8px 15px;
@@ -332,6 +347,10 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	height: 37px;
 	width: 100%;
  }
+
+ .btn-group.group-floor{
+	 width: 76px;
+}
  select option{
 	font-size: 10pt;
 	color: #686772;
@@ -353,7 +372,10 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 }
 .param p{
 	margin-top: 15px;
+ }
 
+.param .row{
+    padding-right: 5px;
  }
 
  .search-param{
@@ -363,9 +385,13 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
     margin-top: 20px;
 	border-top: 1px solid rgb(228, 226, 226);
  }
+.search-param>div{
+   padding: 0;
+ }
+
 
 .search-param .btn-primary{
-	padding: 10px 50px;
+	padding: 14px;
 	color: #6666ff;
 	background: rgb(243, 242, 242);
 	border: none;
@@ -414,6 +440,16 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 
 .btn-group.btn-floor{
 	width: 44%;
+}
+.btn-group .button-map{
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 10pt;
+    color: #686772;
+    height: 37px;
+	width: 100%;
+	cursor: pointer;
 }
 .input-group .input-group-addon{
     background: none;
@@ -523,6 +559,12 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 .announce_check .checkbox-inline {
     margin-top: 15px!important;
 }
+.announce_check .checkbox-inline span {
+    color: #6666ff;
+    font-weight: bold;
+    font-size: 9pt;
+    text-transform: uppercase;
+}
 
 .search_job{
 	background: white;
@@ -624,6 +666,25 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 
 .form-control {
 	height: 37px;
+	border: 1px solid #f1f1f1;
+}
+
+.btn-group-floor .form-floor{
+    width: 50%;
+}
+.btn-group-floor .form-floor:focus{
+    border: 1px solid #f1f1f1;
+}
+
+.btn-group-floor .form-floor:nth-child(1){
+	float: left;
+    border-right: 1px solid #f1f1f1;
+    border-radius: 5px 0 0 5px!important;
+}
+.btn-group-floor .form-floor:nth-child(2){
+    float: right;
+    border-left: none;
+    border-radius: 0 5px 5px 0!important;
 }
 
  .col-xs-five-half,

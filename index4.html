@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="param">
-            <div class="row">
+            <div class="row headline">
                 <div class="col-md-five	col-lg-five">
                     <p>Поиск</p>
                 </div>
@@ -111,12 +111,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row headline">
                 <div class="col-md-five	col-lg-five">
                     <p>Срок аренды</p>
                 </div>
                 <div class="col-md-five	col-lg-five">
-                    <p>Площадь, м</p>
+                    <p>Площадь, м<sup><small>2</small></sup></p>
                 </div>
                 <div class="col-md-five	col-lg-five">
                     <p>Этаж</p>
@@ -141,12 +141,16 @@
                     </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                    </div>
+                        <div class="btn-group-floor">
+                            <input type="text" placeholder="От" class="form-control form-floor">
+                            <input type="text" placeholder="До" class="form-control form-floor">
+                        </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
-                    <input type="text" class="form-control">
+                    <div class="btn-group-floor">
+                        <input type="text" placeholder="От" class="form-control form-floor">
+                        <input type="text" placeholder="До" class="form-control form-floor">
+                    </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
                     <div class="btn-group">
@@ -160,10 +164,13 @@
                     </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
-                    <input type="text" class="form-control">
+                    <div class="btn-group-floor">
+                        <input type="text" placeholder="От" class="form-control form-floor">
+                        <input type="text" placeholder="До" class="form-control form-floor">
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row headline">
                 <div class="col-md-five	col-lg-five">
                     <p>Ремонт</p>
                 </div>
@@ -221,17 +228,11 @@
                 </div>
                 <div class="col-md-five	col-lg-five">
                     <div class="btn-group">
-                        <select role="menu">
-                            <option><a href="#">Действие</a></option>
-                            <option><a href="#">Другое действие</a></option>
-                            <option><a href="#">Что-то иное</a></option>
-                            <li class="divider"></option>
-                            <option><a href="#">Отдельная ссылка</a></option>
-                        </select>
+                        <div class="button-map">Не выбрано</div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row headline">
                 <div class="col-md-five	col-lg-five">
                     <p>Санузел</p>
                 </div>
@@ -273,14 +274,14 @@
                 <div class="col-md-five	col-lg-five">
                    <div class="btn-group">
                         <div class="btn-group">
-                            <input type="tel" class="form-control">
+                            <input type="tel" class="form-control"  placeholder="Телефон">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
                    <div class="btn-group">
                         <div class="btn-group">
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control"  placeholder="Не выбрано">
                         </div>
                     </div>
                 </div>
@@ -293,10 +294,10 @@
                 </div>
             </div>
             <div class="row search-param">
-                    <div class="col-md-4	col-lg-4">
+                    <div class="col-md-3	col-lg-3">
                         <a class="btn btn-primary btn-md" role="button">Поиск объявлений</a></p>
                     </div>
-                    <div class="col-md-4	col-lg-4">
+                    <div class="col-md-3	col-lg-3">
                         <a class="btn btn-primary btn-md btn-chern" role="button">Очистить фильтр</a></p>
                     </div>
             </div>
