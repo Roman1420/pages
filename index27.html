@@ -60,8 +60,8 @@
 								<p>Тип сделки</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_1" name="optradio1"><label for="radio_1" class="radio-inline">Аренда</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_2" name="optradio1"checked><label for="radio_2" class="radio-inline">Продажа</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_91" name="optradio1"><label for="radio_91" class="radio-inline">Аренда</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_92" name="optradio1"checked><label for="radio_92" class="radio-inline">Продажа</label></div>
                             </div>
 						</div>
 						<div class="row adt_block">
@@ -69,8 +69,8 @@
 								<p>Тип недвижимости</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="radio_button"><input type="radio" class="radio" id="radio_11" name="optradio2"><label for="radio_11" class="radio-inline">Жилая</label></div>
-								<div class="radio_button"><input type="radio" class="radio" id="radio_12" name="optradio2" checked><label for="radio_12" class="radio-inline">Коммерческая</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_1" name="optradio2"><label for="radio_1" class="radio-inline">Жилая</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_2" name="optradio2" checked><label for="radio_2" class="radio-inline">Коммерческая</label></div>
 							</div>
 						</div>
 						
@@ -92,14 +92,14 @@
 						</div>
 					</div>
 					<div class="adt_desk">
-						<p class="adt_headline">Адрес</p>
+						<p class="adt_headline">Адрес или название бизнес-центра</p>
 						<div class="row adt_block">
 							<input type="text" id="adress" placeholder="Введите адрес" >
 							<iframe src="https://www.google.com/maps/embed?pb=" width="540" height="300" frameborder="0" style="border:0; width: 100%" margin="auto" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div class="adt_desk">
-                        <p class="adt_headline">О здании</p>
+                        <p class="adt_headline">Об объекте</p>
                         <div class="row adt_block">
                             <div class="col-md-4  col-lg-4">
                                 <p>Кадастровый номер</p>
@@ -111,13 +111,57 @@
                             </div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Название</p>
+                            <div class="col-md-4  col-lg-4">
+                                <p>Площадь</p>
                             </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="input-group input-name">
-                                    <input type="text" class="form-control" placeholder="Введите название">
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="input-group input-number">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon">м<sup><small>2</small></sup></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Можно по отдельности</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_11" name="optradio12" checked><label for="radio_11" class="radio-inline">Да</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_12" name="optradio12"><label for="radio_12" class="radio-inline">Нет</label></div>
+                            </div>
+                        </div>
+						<div class="row adt_block">
+                                <div class="col-md-4  col-lg-4">
+                                    <p>Этаж</p>
                                 </div>
+                                <div class="col-md-4	col-lg-4">
+                                    <div class="btn-group btn-floor">
+                                        <select role="menu">
+                                            <option><a href="#">Действие</a></option>
+                                            <option><a href="#">Другое действие</a></option>
+                                            <option><a href="#">Что-то иное</a></option>
+                                            <li class="divider"></option>
+                                            <option><a href="#">Отдельная ссылка</a></option>
+                                        </select>
+                                    </div> из 
+                                    <div class="btn-group btn-floor">
+                                        <select role="menu">
+                                            <option><a href="#">Действие</a></option>
+                                            <option><a href="#">Другое действие</a></option>
+                                            <option><a href="#">Что-то иное</a></option>
+                                            <li class="divider"></option>
+                                            <option><a href="#">Отдельная ссылка</a></option>
+                                        </select>
+                                    </div>  
+                                </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Отдельный вход</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_211" name="optradio144" checked><label for="radio_211" class="radio-inline">Да</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_222" name="optradio144"><label for="radio_222" class="radio-inline">Нет</label></div>
                             </div>
                         </div>
                         <div class="row adt_block">
@@ -125,53 +169,15 @@
                                 <p>Первая линия</p>
                             </div>
                             <div class="col-md-4	col-lg-4">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_31" name="optradio14" checked><label for="radio_21" class="radio-inline">Да</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_32" name="optradio14"><label for="radio_22" class="radio-inline">Нет</label></div>
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Год постройки</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="input-group input-kad">
-                                    <input type="text" class="form-control">
-                                </div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_21" name="optradio14" checked><label for="radio_21" class="radio-inline">Да</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_22" name="optradio14"><label for="radio_22" class="radio-inline">Нет</label></div>
                             </div>
                         </div>
 						<div class="row adt_block">
 							<div class="col-md-4  col-lg-4">
-								<p>Площадь здания</p>
+								<p>Высота потолков</p>
 							</div>
 							<div class="col-md-4	col-lg-4">
-                                <div class="input-group input-number">
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon">м<sup><small>2</small></sup></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Этажей в здании</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="btn-group group-floor">
-                                <select role="menu">
-                                    <option><a href="#">Действие</a></option>
-                                    <option><a href="#">Другое действие</a></option>
-                                    <option><a href="#">Что-то иное</a></option>
-                                    <li class="divider"></option>
-                                    <option><a href="#">Отдельная ссылка</a></option>
-                                </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Высота потолков</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
                                 <div class="input-group input-number">
                                     <input type="text" class="form-control">
                                     <span class="input-group-addon">м</span>
@@ -179,67 +185,8 @@
                             </div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Отдельный вход</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_81" name="optradio81" checked><label for="radio_81" class="radio-inline">Да</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_82" name="optradio81"><label for="radio_82" class="radio-inline">Нет</label></div>
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Класс здания</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_991" name="optradio99" checked><label for="radio_991" class="radio-inline">A</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_992" name="optradio99"><label for="radio_992" class="radio-inline">A+</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_993" name="optradio99"><label for="radio_993" class="radio-inline">B</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_994" name="optradio99"><label for="radio_994" class="radio-inline">B+</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_995" name="optradio99"><label for="radio_995" class="radio-inline">B-</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_996" name="optradio99"><label for="radio_996" class="radio-inline">C</label></div>
-
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Участок</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="input-group input-number">
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon">га</span>
-                                </div>
-                            </div>
-						</div>
-						<div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-								<label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В собственности</span></label>
-                            </div>
-						</div>
-						<div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В аренде</span></label> 
-                            </div>
-						</div>
-						<div class="row adt_block">
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Лифт</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_881" name="optradio881" checked><label for="radio_881" class="radio-inline">Есть</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_882" name="optradio881"><label for="radio_882" class="radio-inline">Нет</label></div>
-                            </div>
-                        </div>
-						<div class="row adt_block">
                             <div class="col-md-4  col-lg-4">
-                                <p>Парковка</p>
+                                <p>Материал пола</p>
                             </div>
                             <div class="col-md-4	col-lg-4">
                                 <div class="btn-group">
@@ -252,6 +199,186 @@
                                 </select>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Лифт</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_31" name="optradio42" checked><label for="radio_31" class="radio-inline">Есть</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_32" name="optradio42"><label for="radio_32" class="radio-inline">Нет</label></div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Крановое оборудование</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Мостовой кран</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="input-group input-number">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Кран-балка</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="input-group input-number">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Ж/Д кран</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="input-group input-number">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Козловый кран</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="input-group input-number">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Количество мокрых точек</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="btn-group">
+                                <select role="menu">
+                                    <option><a href="#">Действие</a></option>
+                                    <option><a href="#">Другое действие</a></option>
+                                    <option><a href="#">Что-то иное</a></option>
+                                    <li class="divider"></option>
+                                    <option><a href="#">Отдельная ссылка</a></option>
+                                </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Электрическая мощность</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="input-group input-number">
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-addon">кВТ</span>
+                                </div>
+                            </div>
+                        </div>
+						<div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Парковка</p>
+                            </div>
+                            <div class="col-md-8	col-lg-8">
+                                <div class="btn-group btn-floor">
+                                    <select role="menu">
+                                        <option><a href="#">Действие</a></option>
+                                        <option><a href="#">Другое действие</a></option>
+                                        <option><a href="#">Что-то иное</a></option>
+                                        <li class="divider"></option>
+                                        <option><a href="#">Отдельная ссылка</a></option>
+                                    </select>
+                                </div>
+                                <div class="btn-group btn-floor">
+                                    <select role="menu">
+                                        <option><a href="#">Действие</a></option>
+                                        <option><a href="#">Другое действие</a></option>
+                                        <option><a href="#">Что-то иное</a></option>
+                                        <li class="divider"></option>
+                                        <option><a href="#">Отдельная ссылка</a></option>
+                                    </select>
+                                </div>  
+                            </div>
+                    </div>
+					</div>
+					<div class="adt_desk">
+						<p class="adt_headline">О здании</p>
+						<div class="row adt_block">
+							<div class="col-md-4	col-lg-4">
+								<p>Название</p>
+							</div>
+							<div class="col-md-8	col-lg-8">
+								<div class="input-group input-name">
+									<input type="text" class="form-control" placeholder="Введите название">
+								</div>
+							</div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Год постройки</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="input-group input-kad">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Класс здания</p>
+                            </div>
+                            <div class="col-md-8	col-lg-8">
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_81" name="optradio81" checked><label for="radio_81" class="radio-inline">A</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_83" name="optradio81"><label for="radio_83" class="radio-inline">B</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_85" name="optradio81"><label for="radio_85" class="radio-inline">C</label></div>
+                                <div class="radio_button"><input type="radio" class="radio" id="radio_86" name="optradio81"><label for="radio_86" class="radio-inline">D</label></div>
+
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Участок</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="btn-group btn-floor">
+                                        <input type="text" class="form-control">
+                                    </div> 
+                                    <div class="btn-group btn-floor">
+                                        <select role="menu">
+                                            <option><a href="#">Га</a></option>
+                                            <option><a href="#">Другое действие</a></option>
+                                            <option><a href="#">Что-то иное</a></option>
+                                            <li class="divider"></option>
+                                            <option><a href="#">Отдельная ссылка</a></option>
+                                        </select>
+                                    </div>  
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В собственности</span></label>
+                            </div>  
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В аренде</span></label>
+                            </div>  
                         </div>
 					</div>
 					<div class="adt_desk">
@@ -323,8 +450,8 @@
 								<p>Переуступка права аренды</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="radio_button"><input type="radio" class="radio" id="radio_331" name="optradio12" checked><label for="radio_331" class="radio-inline">Да</label></div>
-								<div class="radio_button"><input type="radio" class="radio" id="radio_332" name="optradio12"><label for="radio_332" class="radio-inline">Нет</label></div>   
+								<div class="radio_button"><input type="radio" class="radio" id="radio_331" name="optradio112" checked><label for="radio_331" class="radio-inline">Да</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_332" name="optradio112"><label for="radio_332" class="radio-inline">Нет</label></div>   
 							</div>
 						</div> 
 						<div class="row adt_block">

@@ -441,6 +441,11 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 .btn-group.btn-floor{
 	width: 44%;
 }
+
+.input-group.inline{
+	float: left;
+}
+
 .btn-group .button-map{
     border: 1px solid #f1f1f1;
     border-radius: 5px;

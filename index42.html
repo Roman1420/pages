@@ -69,8 +69,8 @@
 								<p>Тип недвижимости</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="radio_button"><input type="radio" class="radio" id="radio_11" name="optradio2"><label for="radio_11" class="radio-inline">Жилая</label></div>
-								<div class="radio_button"><input type="radio" class="radio" id="radio_12" name="optradio2" checked><label for="radio_12" class="radio-inline">Коммерческая</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_11" name="optradio2" checked><label for="radio_11" class="radio-inline">Жилая</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_12" name="optradio2"><label for="radio_12" class="radio-inline">Коммерческая</label></div>
 							</div>
 						</div>
 						
@@ -99,51 +99,79 @@
 						</div>
 					</div>
 					<div class="adt_desk">
-                        <p class="adt_headline">О здании</p>
+                        <p class="adt_headline">Об объекте</p>
                         <div class="row adt_block">
                             <div class="col-md-4  col-lg-4">
                                 <p>Кадастровый номер</p>
                             </div>
                             <div class="col-md-4	col-lg-4">
-                                <div class="input-group">
+                                <div class="input-group input-kad" >
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Название</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="input-group input-name">
-                                    <input type="text" class="form-control" placeholder="Введите название">
-                                </div>
-                            </div>
+							<div class="col-md-4	col-lg-4">
+								<p>Название котеджного поселка</p>
+							</div>
+							<div class="col-md-8	col-lg-8">
+								<div class="input-group input-name">
+									<input type="text" class="form-control" placeholder="Введите название">
+								</div>
+							</div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Первая линия</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_31" name="optradio14" checked><label for="radio_21" class="radio-inline">Да</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_32" name="optradio14"><label for="radio_22" class="radio-inline">Нет</label></div>
-                            </div>
+							<div class="col-md-4	col-lg-4">
+								<p>Улица или ориентир</p>
+							</div>
+							<div class="col-md-8	col-lg-8">
+								<div class="input-group input-name">
+									<input type="text" class="form-control">
+								</div>
+							</div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
+							<div class="col-md-4  col-lg-4">
+								<p>Удаленность от города</p>
+							</div>
+							<div class="col-md-4	col-lg-4">
+								<div class="input-group input-number">
+									<input type="text" class="form-control">
+									<span class="input-group-addon">км</span>
+								</div>
+							</div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
                                 <p>Год постройки</p>
                             </div>
                             <div class="col-md-4	col-lg-4">
-                                <div class="input-group input-kad">
+                                <div class="input-group input-kad" >
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                         </div>
 						<div class="row adt_block">
-							<div class="col-md-4  col-lg-4">
-								<p>Площадь здания</p>
+							<div class="col-md-4	col-lg-4">
+								<p>Тип дома</p>
 							</div>
 							<div class="col-md-4	col-lg-4">
+								<div class="btn-group">
+									<select role="menu">
+										<option><a href="#">Действие</a></option>
+										<option><a href="#">Другое действие</a></option>
+										<option><a href="#">Что-то иное</a></option>
+										<li class="divider"></option>
+										<option><a href="#">Отдельная ссылка</a></option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4  col-lg-4">
+                                <p>Общая площадь</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
                                 <div class="input-group input-number">
                                     <input type="text" class="form-control">
                                     <span class="input-group-addon">м<sup><small>2</small></sup></span>
@@ -151,105 +179,132 @@
                             </div>
                         </div>
                         <div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Этажей в здании</p>
-                            </div>
                             <div class="col-md-4	col-lg-4">
-                                <div class="btn-group group-floor">
-                                <select role="menu">
-                                    <option><a href="#">Действие</a></option>
-                                    <option><a href="#">Другое действие</a></option>
-                                    <option><a href="#">Что-то иное</a></option>
-                                    <li class="divider"></option>
-                                    <option><a href="#">Отдельная ссылка</a></option>
-                                </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Высота потолков</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="input-group input-number">
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon">м</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Отдельный вход</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_81" name="optradio81" checked><label for="radio_81" class="radio-inline">Да</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_82" name="optradio81"><label for="radio_82" class="radio-inline">Нет</label></div>
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Класс здания</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_991" name="optradio99" checked><label for="radio_991" class="radio-inline">A</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_992" name="optradio99"><label for="radio_992" class="radio-inline">A+</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_993" name="optradio99"><label for="radio_993" class="radio-inline">B</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_994" name="optradio99"><label for="radio_994" class="radio-inline">B+</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_995" name="optradio99"><label for="radio_995" class="radio-inline">B-</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_996" name="optradio99"><label for="radio_996" class="radio-inline">C</label></div>
-
-                            </div>
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Участок</p>
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <div class="input-group input-number">
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon">га</span>
-                                </div>
-                            </div>
-						</div>
-						<div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-								<label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В собственности</span></label>
-                            </div>
-						</div>
-						<div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                            </div>
-                            <div class="col-md-4	col-lg-4">
-                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">В аренде</span></label> 
-                            </div>
-						</div>
-						<div class="row adt_block">
-                        </div>
-                        <div class="row adt_block">
-                            <div class="col-md-4	col-lg-4">
-                                <p>Лифт</p>
-                            </div>
-                            <div class="col-md-8	col-lg-8">
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_881" name="optradio881" checked><label for="radio_881" class="radio-inline">Есть</label></div>
-                                <div class="radio_button"><input type="radio" class="radio" id="radio_882" name="optradio881"><label for="radio_882" class="radio-inline">Нет</label></div>
-                            </div>
-                        </div>
-						<div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Парковка</p>
+                                <p>Этажей в доме</p>
                             </div>
                             <div class="col-md-4	col-lg-4">
                                 <div class="btn-group">
-                                <select role="menu">
-                                    <option><a href="#">Действие</a></option>
-                                    <option><a href="#">Другое действие</a></option>
-                                    <option><a href="#">Что-то иное</a></option>
-                                    <li class="divider"></option>
-                                    <option><a href="#">Отдельная ссылка</a></option>
-                                </select>
+                                    <select role="menu">
+                                        <option><a href="#">Действие</a></option>
+                                        <option><a href="#">Другое действие</a></option>
+                                        <option><a href="#">Что-то иное</a></option>
+                                        <li class="divider"></option>
+                                        <option><a href="#">Отдельная ссылка</a></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                 
+                        </div>
+
+						<div class="row adt_block">
+							<div class="col-md-4	col-lg-4">
+								<p>Санузел</p>
+							</div>
+							<div class="col-md-8	col-lg-8">
+								<div class="radio_button"><input type="radio" class="radio" id="radio_31" name="optradio4" checked><label for="radio_31" class="radio-inline">В доме</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_32" name="optradio4"><label for="radio_32" class="radio-inline">На улице</label></div>
+							</div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Отопление</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="btn-group">
+                                    <select role="menu">
+                                        <option><a href="#">Действие</a></option>
+                                        <option><a href="#">Другое действие</a></option>
+                                        <option><a href="#">Что-то иное</a></option>
+                                        <li class="divider"></option>
+                                        <option><a href="#">Отдельная ссылка</a></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+							<div class="col-md-4	col-lg-4">
+								<p>Дополнительно</p>
+							</div>
+							<div class="col-md-8	col-lg-8">
+								<div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Электричество</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Телефон</span></label>
+									</div>
+								</div>
+								<div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Канализация</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Баня</span></label>
+									</div>
+								</div>
+								<div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Водоснабжение</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+                                        <label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Гараж</span></label>
+									</div>
+                                </div>
+                                <div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Газ</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+                                        <label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Бассейн</span></label>
+									</div>
+                                </div>
+                                <div class="row checkbox-row">
+									<div class="col-md-6	col-lg-6">
+										<label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Охрана</span></label>
+									</div>
+									<div class="col-md-6	col-lg-6">
+                                        <label class="checkbox-inline"><input type="checkbox" class="checkbox" name="checkbox1"><span class="pseudocheckbox">Хоз. постройки</span></label>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="row checkbox-row">
+        
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Площадь участка</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                    <div class="btn-group btn-floor">
+                                        <input type="text" class="form-control">
+                                    </div> 
+                                    <div class="btn-group btn-floor">
+                                        <select role="menu">
+                                            <option><a href="#">Га</a></option>
+                                            <option><a href="#">Другое действие</a></option>
+                                            <option><a href="#">Что-то иное</a></option>
+                                            <li class="divider"></option>
+                                            <option><a href="#">Отдельная ссылка</a></option>
+                                        </select>
+                                    </div>  
+                            </div>
+                        </div>
+                        <div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                                <p>Статус участка</p>
+                            </div>
+                            <div class="col-md-4	col-lg-4">
+                                <div class="btn-group">
+                                    <select role="menu">
+                                        <option><a href="#">Действие</a></option>
+                                        <option><a href="#">Другое действие</a></option>
+                                        <option><a href="#">Что-то иное</a></option>
+                                        <li class="divider"></option>
+                                        <option><a href="#">Отдельная ссылка</a></option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -301,30 +356,30 @@
 									<span class="input-group-addon">Р </span>
 								</div>
 							</div>
-                        </div>  
-                        <div class="row adt_block">
-                            <div class="col-md-4  col-lg-4">
-                                <p>Налог</p>
-                            </div>
+						</div> 
+						<div class="row adt_block">
                             <div class="col-md-4	col-lg-4">
-                                <div class="btn-group">
-                                    <select role="menu">
-                                        <option><a href="#">Действие</a></option>
-                                        <option><a href="#">Другое действие</a></option>
-                                        <option><a href="#">Что-то иное</a></option>
-                                        <li class="divider"></option>
-                                        <option><a href="#">Отдельная ссылка</a></option>
-                                    </select>
-                                </div>
-                            </div>
+                            </div> 
+                            <div class="col-md-4	col-lg-4">
+                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">Возможна ипотека</span></label>
+                            </div>            
                         </div> 
 						<div class="row adt_block">
+                            <div class="col-md-4	col-lg-4">
+                            </div> 
+                            <div class="col-md-4	col-lg-4">
+                                <label class="checkbox-inline" style="padding-left: 0;"><input type="checkbox" class="checkbox" name="checkbox3"><span class="pseudocheckbox">Под авансом/задатком</span></label>
+                            </div>            
+						</div> 
+						<div class="row adt_block">
+						</div> 
+						<div class="row adt_block">
 							<div class="col-md-4  col-lg-4">
-								<p>Переуступка права аренды</p>
+								<p>Тип продажи</p>
 							</div>
 							<div class="col-md-8	col-lg-8">
-								<div class="radio_button"><input type="radio" class="radio" id="radio_331" name="optradio12" checked><label for="radio_331" class="radio-inline">Да</label></div>
-								<div class="radio_button"><input type="radio" class="radio" id="radio_332" name="optradio12"><label for="radio_332" class="radio-inline">Нет</label></div>   
+								<div class="radio_button"><input type="radio" class="radio" id="radio_331" name="optradio12" checked><label for="radio_331" class="radio-inline">Свободная продажа</label></div>
+								<div class="radio_button"><input type="radio" class="radio" id="radio_332" name="optradio12"><label for="radio_332" class="radio-inline">Альтернатива</label></div>   
 							</div>
 						</div> 
 						<div class="row adt_block">
