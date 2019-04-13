@@ -219,12 +219,11 @@ input.radio{
 
 label.radio-inline {
 	display: block;
-    margin: 0 0 0 -1px;
+    margin: 0;
 	padding: 8px 15px;
     border: 1px solid #f1f1f1;
     background: white;
 	cursor: pointer;
-	border-radius: 4px;
 	font-size: 10pt;
 	color: #23232f;
 	transition: .3s;
@@ -234,12 +233,18 @@ label.radio-inline {
 .radio_button input.radio:checked + label.radio-inline {
     background: #6666ff;
     color: white;
-    border-radius: 4px;
 	border: 1px solid #6666ff;
 	transition: .3s;
 	
 }
-
+.row .radio_button:nth-child(1) .radio-inline{
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.row .radio_button:nth-last-child(1) .radio-inline{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
 .radio_button {
     float: left;
 }
@@ -434,8 +439,9 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	height: 37px;
 	width: 114px;
  }
-.input-number input{
+.input-group.input-number input{
 	height: 37px;
+	width: 80px;
  }
 
 .btn-group.btn-floor{
