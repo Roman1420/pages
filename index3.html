@@ -316,7 +316,7 @@
             <div class="row">
                 <div class="col-md-five	col-lg-five">
                     <div class="btn-group btn-group-map">
-                        <div class="button-map">Не выбрано</div>
+                        <div class="button-map" data-toggle="modal" data-target="#myModal">Не выбрано</div>
                     </div>
                 </div>
                 <div class="col-md-five	col-lg-five">
@@ -580,6 +580,25 @@
             </div>
         </div>
 	</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Районы и микрорайоны</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Выбрать</button>
+                    <button type="button" class="btn btn-primary">Сбросить</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 	<script src="js/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
