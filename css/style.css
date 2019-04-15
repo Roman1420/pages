@@ -300,8 +300,11 @@ input[type=checkbox] { display: none; }
 }
 
 input[type=checkbox]:checked + .pseudocheckbox::before { 
-	content: "\2713";
-	color: #6666ff;
+    content: "\2713";
+    color: #FFF;
+    font-size: 10pt;
+    font-weight: 100;
+    background: #6666ff;
  }
  .btn-primary.btn-chern{
 	background: none;
@@ -650,7 +653,7 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	border: 1px solid #6666ff;
 	color: white;
 }
-.search_job .btn.btn-main{
+.search_job .btn.btn-main, .modal-dialog .btn.btn-main{
 	background: none;
 	border: 1px solid rgb(219, 219, 219);
 	color: #6666ff;
@@ -669,30 +672,81 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 .modal-dialog{
 	width: 50%;
 }
+.modal-dialog .adt_block{
+	border-top: 1px solid #eFeFFF;
+}
+.modal-dialog .adt_block:nth-child(1){
+	border-top: 1px solid #fff;
+}
+
+.modal-dialog .nav {
+	padding: 0;
+	box-shadow:none;
+}
+
+.modal-dialog .nav-tabs>li>a{
+	border: 1px solid #fff;
+	color: black;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 9pt;
+	padding: 15px 10px;
+	margin-bottom: -1px;
+	background: #fff;
+
+}
+.modal-dialog .nav-tabs{
+	border-bottom: 1px solid #eFeFFF;
+}
+.modal-dialog .nav-tabs>li.active>a, .modal-dialog .nav-tabs>li.active>a:focus, .modal-dialog .nav-tabs>li.active>a:hover{
+    border: 2px solid #fff;
+	border-bottom: 2px solid #6666ff;
+	color: #6666ff;
+	font-weight: 600;
+	background: #fff;
+	margin-bottom: -1px;
+}
 .close {
     font-size: 36px;
 	font-weight: 300;
+	margin-right: 15px;
+	outline: none;
+	border: none;
 }
 
 .modal-body {
     position: relative;
-    padding: 15px;
-    overflow-y: scroll;
-    max-height: 65vh;
+	padding: 0px 15px;
 }
-.modal-body::-webkit-scrollbar { width: 3px; height: 3px;}
-.modal-body::-webkit-scrollbar-button {  background-color: #ffffff; }
-.modal-body::-webkit-scrollbar-track {  background-color: #ffffff;}
-.modal-body::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-.modal-body::-webkit-scrollbar-thumb { height: 50px; background-color: #ffffff; border-radius: 3px;}
-.modal-body::-webkit-scrollbar-corner { background-color: #ffffff;}}
-.modal-body::-webkit-resizer { background-color: #ffffff;}
+#myModal2 .modal-header {
+	padding: 30px 15px;
+}
+#myModal2 .modal-content {
+    padding-top: 0px;
+}
+
+.modal-dialog .adt_block:nth-child(1){
+	border-top: 1px solid #eFeFFF;
+}
+
+.modal-content .tab-content::-webkit-scrollbar { width: 3px; height: 3px;}
+.modal-content .tab-content::-webkit-scrollbar-button {  background-color: #ffffff; }
+.modal-content .tab-content::-webkit-scrollbar-track {  background-color: #ffffff;}
+.modal-content .tab-content::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+.modal-content .tab-content::-webkit-scrollbar-thumb { height: 50px; background-color: #ffffff; border-radius: 3px;}
+.modal-content .tab-content::-webkit-scrollbar-corner { background-color: #ffffff;}
+.modal-content .tab-content::-webkit-resizer { background-color: #ffffff;}
 
 .modal-content {
     border-radius: 9px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
     padding-top: 10px;
+}
+
+.modal-content .row.adt_block {
+	margin-top: 0px;
+	padding: 20px;
 }
 
 .modal-content .btn-group{
@@ -704,6 +758,7 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 .modal-footer .btn-group .btn+.btn {
     margin-left: 10px;
 }
+
 .modal-content .btn-group::after {
     content:none;
 }
@@ -713,16 +768,26 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 }
 
 .modal-footer {
-    text-align: center;
+	text-align: center;
+	border-top: 1px solid #eFeFFF;
 }
 
 .modal-title {
 	font-size: 18pt;
+	padding-left: 10px;
 }
 
 .modal-header {
-    border-bottom: none;
+	border-bottom: none;
+	padding-bottom:0;
 }
+
+.modal-content .tab-content{
+	padding: 0px;
+	overflow-y: scroll;
+    max-height: 55vh;
+}
+
 
  .col-xs-five,
 .col-sm-five,
