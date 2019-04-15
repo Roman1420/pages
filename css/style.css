@@ -7,7 +7,7 @@ input{
 	box-shadow:none!important;
 }
 input:focus{
-	border-color: #f1f1f1!important;
+	border-color: #6666ff!important;
 	box-shadow:none!important;
 }
 label{
@@ -53,7 +53,14 @@ body>.row>div:nth-child(1){
 	color: #686772;
 	padding: 10px 3px;
 	text-decoration: none;
+	border: none;
 }
+.nav li a:hover{
+	background: none;
+	color: black;
+}
+
+
 
 .nav li img{
 	margin-right: 10px;
@@ -305,7 +312,7 @@ input[type=checkbox] { display: none; }
     vertical-align: baseline;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+	font-size: 10pt;
     line-height: 16px;
     font-weight: bold;
     color: #808080;
@@ -317,17 +324,18 @@ input[type=checkbox] { display: none; }
 input[type=checkbox]:checked + .pseudocheckbox::before { 
     content: "\2713";
     color: #FFF;
-    font-size: 10pt;
+ 
     font-weight: 100;
     background: #6666ff;
  }
  .btn-primary.btn-chern{
-	background: none;
+	background: #fff;
 	color: #6666ff;
 	border: 1px solid #f1f1f1;
+	transition: .3s;
  }
 .btn-primary.btn-send{
-	background: none;
+	background: #fff;
 	color: #6666ff;
 	border: 1px solid #6666ff;
 	padding: 8px 15px;
@@ -343,6 +351,19 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	 font-size: 8pt;
 	 padding: 10px 20px;
 	 float: right;
+	 transition: .3s;
+ }
+ .btn-primary.btn-youtube:hover, .btn-primary.btn-chern:hover, .btn-primary.btn-send:hover{
+	 background: white;
+	 color: #6666ff;
+	 border: 1px solid #6666ff;
+	 transition: .3s;
+ }
+.btn-primary.btn-youtube:active, .btn-primary.btn-chern:active, .btn-primary.btn-send:active{
+	 background: #efefff;
+	 color: #6666ff;
+	 border: 1px solid #6666ff;
+	 transition: .3s;
  }
  .btn-primary{
 	 background: #6666ff;
@@ -358,6 +379,12 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	 margin-top: 10px;
  }
  .btn-primary:hover{
+	 background: #7272ff;
+	 border: 1px solid #7272ff;
+	 transition: .3s;
+	 color: white;
+ }
+ .btn-primary:active{
 	 background: #4343aa;
 	 border: 1px solid #4343aa;
 	 transition: .3s;
