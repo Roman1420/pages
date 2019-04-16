@@ -1019,6 +1019,7 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 
 .jq-selectbox ul {
 	padding-top: 10px;
+	width: 100%;
 }
 
 .jq-selectbox__dropdown {
@@ -1028,6 +1029,7 @@ input[type=checkbox]:checked + .pseudocheckbox::before {
 	border-top: none;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
+	width: 100%!important;
 }
 
 .col-xs-five-half .input-group, .col-sm-five-half .input-group, .col-md-five-half .input-group, .col-lg-five-half .input-group{
